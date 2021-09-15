@@ -1,0 +1,167 @@
+.container{
+    width: 100%;
+    height: 98px;
+    z-index: -1;
+    background: rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns: 0fr 0.75fr 2fr .75fr;
+    padding-left: 0px;
+    padding: 0;
+    color: white;
+    position: -webkit-sticky;
+    position: sticky;
+}
+.left-top{
+    background: rgb(255, 255, 255);
+    margin: 0;
+    margin-top: 50px;
+    position: sticky;
+
+}
+.mid-top{
+    float: left;
+background: rgb(255, 255, 255);
+display: flex;
+margin-top: 50px;
+}
+.search{
+    width: 550px;
+    height: 25px;
+    font-size: 17px;
+    font-family: sans-serif;
+
+}
+.right-top{
+    background: rgb(255, 255, 255);
+    margin-top: 50px;
+    
+}
+body{
+    padding:0;
+    margin: 0;
+}
+.search-btn{
+    height: 31px;
+    width: 70px;
+    border-left: none;
+    border-width: thin;
+    background: rgb(235, 235, 235);
+}
+.yt-icon{
+    padding-top:px;
+    height: 34px;
+    margin-left: 30px;
+} 
+.yt-text{
+    font-weight: bold;
+    font-size: 13px;
+    padding-top: 0px;
+    color: black;
+}
+.imgd{
+    margin-top: 20px;  
+    padding-top: 10px; 
+
+}
+.yt-mic{
+    height: 31px;
+    width:60px;
+    border: none;
+    background: whitesmoke;
+    cursor: pointer;
+    background: white;
+
+}
+.yt-apps{
+    background: white;
+    background-color: white;
+    border: none;
+    margin-left: 50px;
+
+}
+.yt-settings{
+    width: px;
+    background: white;
+    border:none;
+    padding-left: 40px;
+}
+.yt-sign{
+    width: 100px;
+    padding-left: auto;
+    border: solid;
+    height: 45px;
+    border-color: blue;
+    border-width: thin;
+    background: white;
+    
+}
+.blue-icon{
+    color: blue;
+}
+.blackmenu{
+    color: black;
+}
+.hrln-top{
+    color: rgb(85, 7, 7);
+}
+
+.bd-container{
+    height: 100vh;
+    display: flex;
+    color: teal;
+    margin:0;
+}
+.left-body{
+    width: 100px;
+    height: 100vh;
+    background: rgb(255, 255, 255);
+    margin:0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-evenly ;
+    position: sticky;
+
+}
+.right-body, .right-body1{
+    margin-top: -8px;
+    display: flex;
+    flex:1;
+    background: rgb(230, 230, 230);
+    justify-content: space-around;
+    padding: 20px;
+}
+.pro-pic,.pro-img{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    width: 38px;
+    height: 35px;
+    border-radius: 50%;
+    padding-right: 0px;
+    cursor: pointer;
+}
+h5{
+    margin: 0;
+
+}
+.vd-details{
+    display: flex;
+    flex-direction: row;
+}
+.vd-text{
+    padding:10px ;
+}
+.rows-side{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    width:100%;
+}
+.right-body1{
+    margin-top: -0px;
+}
