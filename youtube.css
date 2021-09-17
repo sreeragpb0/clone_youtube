@@ -1,21 +1,19 @@
 .container{
     width: 100%;
     height: 98px;
-    z-index: -1;
     background: rgb(255, 255, 255);
     display: grid;
     grid-template-columns: 0fr 0.75fr 2fr .75fr;
     padding-left: 0px;
     padding: 0;
     color: white;
-    position: -webkit-sticky;
-    position: sticky;
+    position: fixed;
+    margin-top: -17px;
 }
 .left-top{
     background: rgb(255, 255, 255);
     margin: 0;
     margin-top: 50px;
-    position: sticky;
 
 }
 .mid-top{
@@ -49,9 +47,10 @@ body{
 }
 .yt-icon{
     padding-top:px;
-    height: 34px;
-    margin-left: 30px;
+    height: 38px;
+    margin-left: 60px;
 } 
+
 .yt-text{
     font-weight: bold;
     font-size: 13px;
@@ -108,28 +107,36 @@ body{
 .bd-container{
     height: 100vh;
     display: flex;
-    color: teal;
+
+    color:rgb(230, 230, 230);
     margin:0;
+    margin-top: 10px;
+    width: 100vw;
+    align-items: flex-start;
+
 }
 .left-body{
-    width: 100px;
+    width: 6%;
     height: 100vh;
     background: rgb(255, 255, 255);
     margin:0;
     display: flex;
     flex-direction: column;
     text-align: center;
-    justify-content: space-evenly ;
-    position: sticky;
-
+    justify-content: space-around;
+    position: fixed;
+    margin-top: -162px;
 }
 .right-body, .right-body1{
     margin-top: -8px;
     display: flex;
-    flex:1;
+    width: 94%;
+    margin-left: auto;
+    height: auto;
+    align-items: center;
     background: rgb(230, 230, 230);
-    justify-content: space-around;
-    padding: 20px;
+    justify-content: space-evenly;
+  
 }
 .pro-pic,.pro-img{
     margin-top: 10px;
@@ -139,15 +146,18 @@ body{
     height: 35px;
     border-radius: 50%;
     padding-right: 0px;
-    cursor: pointer;
+    cursor: pointer
+    
 }
 h5{
     margin: 0;
+    color: royalblue;
 
 }
 .vd-details{
     display: flex;
     flex-direction: row;
+    
 }
 .vd-text{
     padding:10px ;
@@ -155,13 +165,54 @@ h5{
 .rows-side{
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
 .flex-column {
     display: flex;
     flex-direction: column;
     width:100%;
+    z-index: -1;
 }
-.right-body1{
-    margin-top: -0px;
-}
+
+.genre{
+    background-color: rgb(238, 238, 238);
+    height: 70px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    
+    }
+    .type-genre{
+        width:100%;
+        height: 70px;
+        background-color: rgb(255, 255, 255);
+        color: brown;
+        position: fixed;
+        display: flex;
+        justify-content: space-evenly;
+        
+
+    }
+    .gen-n{
+        width: 100px;
+        height: in;
+        background: rgb(255, 255, 255);
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly
+    }
+    .gen-btn{
+        height: 35px;
+        background: rgb(211, 211, 211);
+        border-radius: 21px;
+        font-size: 15px;
+        border: solid 2px white;
+
+    }
+    .gen-btn:hover{
+        background: rgb(182, 182, 182);
+        color: rgb(0, 0, 0);
+    }
+    
